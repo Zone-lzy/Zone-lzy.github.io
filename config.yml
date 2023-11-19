@@ -1,0 +1,115 @@
+copyright: "2023 至安生 All rights reserved"
+Author:
+  name: "至安生"
+  email: "281249204@gmail.com"
+baseURL: 'https://Zone-lzy.github.io/'
+title: zhiansheng
+theme: hugo-theme-ladder
+license: MIT
+description: 'A fast, clean Hugo theme'
+homepage: 'https://Zone-lzy.github.io/'
+defaultContentLanguage: 'zh'
+googleAnalytics: G-7E4JNTL3ES
+enableRobotsTXT: true
+paginate: 10
+# markup:
+#   goldmark:
+#     renderer:
+#       unsafe: true
+hasCJKLanguage: false
+menu:
+  main:
+    - name: Blog
+      url: /blog
+      weight: 1
+    - name: Life
+      url: /art
+      weight: 2
+    - name: Archive
+      url: /archives
+      weight: 3
+    - name: Guestbook
+      url: /guestbook
+      weight: 4
+    - name: Dashboard
+      url: https://umami-amber.vercel.app/share/nioaks0dDuJXWoQT/lizhenyong_blog_website
+      weight: 5
+params:
+  brand: HOME
+  avatarURL: /images/avatar.png
+  author: 至安生
+  authorDescription: 'Welcome to my blog, contact me: 2812492504@gmail.com'
+  info: |
+    一直在路上
+  favicon: /images/avatar.ico
+  options:
+    showDarkMode: true
+    enableImgZooming: true
+    enableMultiLang: true
+    showMetaTags: false
+#  darkModeTheme: icy-dark-mode
+  darkModeTheme: data-dark-mode
+  comments:
+    giscus:
+      enable: true
+      repo: Zone-lzy/blog-comments
+      repo_id: R_kgDOHtsjNw
+      category: Announcements
+      category_id: DIC_kwDOHtsjN84CQr99
+      mapping: pathname
+      position: top
+      lang: en # pick a language from https://github.com/giscus/giscus/tree/main/locales
+    utteranc:
+      enable: false
+      repo: Zone-lzy/blog-comments
+      issueTerm: pathname
+  analytics:
+    umami:
+      enable: true
+      website_id: 41972876-3206-4443-9c23-66b90667c4b7
+      url: https://umami-amber.vercel.app/hugo-ladder
+  social:
+    - name: GitHub
+      pre: >-
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather
+        feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0
+        0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0
+        0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09
+        1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44
+        7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+      url: 'https://github.com/Zone-lzy/Zone-lzy.github.io'
+languages:
+  zh:
+    languageName: 中
+    brand: 主页
+    author: 至安生
+    authorDescription: 要么享受孤独，要么享受孤独
+    info: |
+      一直在路上
+    guestbook:
+      title: 留言板
+      description: 您的评论，会让该网站更精彩！
+    menu:
+      main:
+        - name: 文章
+          url: /blog
+          weight: 1
+        - name: 即兴
+          url: /art
+          weight: 2
+        - name: 历史文章
+          url: /archives
+          weight: 3
+        - name: 留言板
+          url: /guestbook
+          weight: 4
+        - name: 网站统计
+          url: https://umami-amber.vercel.app/share/nioaks0dDuJXWoQT/lizhenyong_blog_website
+          weight: 5
+  en:
+    languageName: EN
+taxonomies:
+  series: series
+  tag: tags
